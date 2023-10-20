@@ -1,80 +1,84 @@
+# [16.0.0]
+
+* Upgraded the library to Angular 16 
+
 # [8.0.0]
 
-  * Restructured library to follow Angular standards
+* Restructured library to follow Angular standards
 
 # [7.1.2]
 
-  * Fix parsing has many relationships when there is no models provided
+* Fix parsing has many relationships when there is no models provided
 
 # [7.1.1]
 
-  * Allow removal of HasMany relations by setting empty array ([#224](https://github.com/ghidoz/angular2-jsonapi/pull/224))
+* Allow removal of HasMany relations by setting empty array ([#224](https://github.com/ghidoz/angular2-jsonapi/pull/224))
 
 # [7.1.0]
 
-  * Allow mixed model types in a single HasMany relationships ([#216](https://github.com/ghidoz/angular2-jsonapi/pull/216))
+* Allow mixed model types in a single HasMany relationships ([#216](https://github.com/ghidoz/angular2-jsonapi/pull/216))
 
 ### Bug fixes
 
-  * Fix using relationship config key ([#210](https://github.com/ghidoz/angular2-jsonapi/pull/210))
-  * Fix connecting related model resources parsed from response ([#213](https://github.com/ghidoz/angular2-jsonapi/pull/213))
+* Fix using relationship config key ([#210](https://github.com/ghidoz/angular2-jsonapi/pull/210))
+* Fix connecting related model resources parsed from response ([#213](https://github.com/ghidoz/angular2-jsonapi/pull/213))
 
 # [7.0.0]
 
-  ### BREAKING CHANGES
+### BREAKING CHANGES
 
-  * Upgraded the library to Angular 7
+* Upgraded the library to Angular 7
 
 # [6.1.3]
 
-  * Fixed rollbackAttributes to public
-  * Fixed tests
+* Fixed rollbackAttributes to public
+* Fixed tests
 
 # [6.1.2]
 
-  * Added support for custom request options
+* Added support for custom request options
 
 # [6.1.2-beta]
 
-  * Added support for custom request options
+* Added support for custom request options
 
 # [6.0.1]
 
-  * Angular 6 support
-  * Smaller bug fixes
+* Angular 6 support
+* Smaller bug fixes
 
 ### BREAKING CHANGES
 
-  * Required RxJS v6
+* Required RxJS v6
 
 # [6.0.2-beta]
 
-  * Fix types issues
+* Fix types issues
 
 # [6.0.0-beta]
 
 ### BREAKING CHANGES
 
-  * Upgraded rxjs to version 6
+* Upgraded rxjs to version 6
 
 # [5.1.1-beta], [5.1.1] (2018-06-06)
 
 ### Bug fixes
 
-  * Fix serializedName in included relationships ([#174](https://github.com/ghidoz/angular2-jsonapi/issues/174))
-  * Fix parsing belongsTo and hasMany relationships
+* Fix serializedName in included relationships ([#174](https://github.com/ghidoz/angular2-jsonapi/issues/174))
+* Fix parsing belongsTo and hasMany relationships
 
 # [5.0.0] (2018-11-04)
 
 ### BREAKING CHANGES
 
-  * Replace HttpModule with HttpClientModule
+* Replace HttpModule with HttpClientModule
 
 # [4.1.0] (2018-03-01)
 
 ### Bug fixes
 
-  * Fix creating nested models passed through included property
+* Fix creating nested models passed through included property
 
 # [4.0.3] (2018-01-16)
 

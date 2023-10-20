@@ -1,5 +1,9 @@
 # Angular 2 JSON API
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+
+# OLD DOC
+
 A lightweight Angular 2 adapter for [JSON API](http://jsonapi.org/)
 
 [![Build Status](https://travis-ci.org/ghidoz/angular2-jsonapi.svg?branch=master)](https://travis-ci.org/ghidoz/angular2-jsonapi)
@@ -13,20 +17,20 @@ A lightweight Angular 2 adapter for [JSON API](http://jsonapi.org/)
 - [Introduction](#Introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Configuration](#configuration)
-    - [Finding Records](#finding-records)
-        - [Querying for Multiple Records](#querying-for-multiple-records)
-        - [Retrieving a Single Record](#retrieving-a-single-record)
-    - [Creating, Updating and Deleting](#creating-updating-and-deleting)
-        - [Creating Records](#creating-records)
-        - [Updating Records](#updating-records)
-        - [Persisting Records](#persisting-records)
-        - [Deleting Records](#deleting-records)
-    - [Relationships](#relationships)
-    - [Metadata](#metadata)
-    - [Custom Headers](#custom-headers)
-    - [Error handling](#error-handling)
-    - [Dates](#dates)
+  - [Configuration](#configuration)
+  - [Finding Records](#finding-records)
+    - [Querying for Multiple Records](#querying-for-multiple-records)
+    - [Retrieving a Single Record](#retrieving-a-single-record)
+  - [Creating, Updating and Deleting](#creating-updating-and-deleting)
+    - [Creating Records](#creating-records)
+    - [Updating Records](#updating-records)
+    - [Persisting Records](#persisting-records)
+    - [Deleting Records](#deleting-records)
+  - [Relationships](#relationships)
+  - [Metadata](#metadata)
+  - [Custom Headers](#custom-headers)
+  - [Error handling](#error-handling)
+  - [Dates](#dates)
 - [Development](#development)
 - [Additional tools](#additional-tools)
 - [License](#licence)
@@ -96,7 +100,7 @@ Beginning from Angular CLI 8.1 the `tsconfig.json` does not sets the `emitDecora
 
 ### Notice for `es2015` compilation
 
-Beginning with Angular 8 the default compile target will be `es2015` (in `tsconfig.json`). 
+Beginning with Angular 8 the default compile target will be `es2015` (in `tsconfig.json`).
 Make sure to add this line in your `src/polyfills.ts` as we need it to read metadata from the models:
 
 ```typescript
@@ -476,10 +480,10 @@ export class Post extends JsonApiModel { }
 
 * `Attribute(options: AttributeDecoratorOptions)`
 
-    * `AttributeDecoratorOptions`:
+  * `AttributeDecoratorOptions`:
 
-        * `converter`, optional, must implement `PropertyConverter` interface
-        * `serializedName`, optional
+    * `converter`, optional, must implement `PropertyConverter` interface
+    * `serializedName`, optional
 
 ### Custom Headers
 
